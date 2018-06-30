@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-decoration: none;
+			font-family: Arial;
+		}
+		body {
+			animation-name: fadeIn;
+			animation-duration: 5s;
+		}
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+		.header {
+			height: 100vh;
+			width: 100%;
+			background: url(images/bg.jpg);
+			background-size: 100% 100%;
+		}
+		header {
+			height: 50px;
+			width: 100%;
+			line-height: 50px;
+		}
+		header span {
+			font-size: 2em;
+			color: white;
+			font-weight: bolder;
+			opacity: .8;
+			margin-left: 50px;
+		}
+		header span:hover {
+			opacity: 1;
+			cursor: pointer;
+		}
+		header ul {
+			float: right;
+			margin-right: 50px;
+		}
+		header ul li {
+			float: left;
+			display: block;
+		}
+		header ul li a {
+			padding: 10px;
+			font-size: 1.2em;
+			color: white;
+			opacity: .8;
+		}
+		header ul li a:hover {
+			opacity: 1;
+			font-weight: bolder;
+		}
+		.center {
+			height: 400px;
+			width: 900px;
+		}
+		.center h1 {
+			font-size: 3.8em;
+			color: white;
+		}
+		.center hr {
+			width: 100px;
+			border: 2px solid red;
+		}
+		.center p {
+			color: white;
+			font-weight: bold;
+		}
+		.center button {
+			padding: 20px;
+			font-size: 1.4em;
+			background: red;
+			border: 1px solid red;
+			color: white;
+			border-radius: 15px;
+			cursor: pointer;
+		}
+		.center button:hover {
+			transform: rotate(360deg);
+			transition: 1.88s;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<header>
+			<span>Agnipankh</span>
+			<ul>
+				<li><a href="">HTML</a></li>
+				<li><a href="">CSS3</a></li>
+				<li><a href="">AJAX</a></li>
+				<li><a href="">Blog Website</a></li>
+			</ul>
+		</header><br><br><br><br><br>
+		<center>
+		<div class="center">
+			<h1>YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES</h1><br><br>
+			<center><hr></center><br><br>
+			<p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p><br><br><br>
+			<center><button>Find Out More</button>
+		</div>
+		</center>
+	</div>
+</body>
+</html>

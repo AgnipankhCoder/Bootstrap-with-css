@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;;
+}
+body {
+	animation-name: fadeIn;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+.header {
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/bg.jpg);
+	background-size: 100% 100%;
+}
+.header header {
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+}
+.header header span {
+	font-size: 2em;
+	margin-left: 50px;
+	cursor: pointer;
+	color: white;
+	opacity: 0.8;
+	font-weight: bolder;
+}
+.header header span:hover {
+	opacity: 1;
+}
+.header header ul {
+	float: right;
+	margin-right: 70px;
+}
+.header header ul li {
+	float: left;
+	display: block;
+}
+.header header ul li a {
+	padding: 10px;
+	color: white;
+	opacity: 0.8;
+	font-size: 1.2em;
+}
+.header header ul li a:hover {
+	opacity: 1;
+	font-weight: bolder;
+}
+.center {
+	width: 900px;
+	height: 400px;
+}
+.center h1 {
+	font-size: 3.8em;
+	color: white;
+}
+.center hr {
+	width: 90px;
+	border: 2px solid red;
+}
+.center p {
+	font-weight: bold;
+	color: white;
+}
+.center button {
+	padding: 20px;
+	font-size: 1.5em;
+	color: white;
+	background: red;
+	border: none;
+	cursor: pointer;
+}
+.center button:hover {
+	transform: rotate(360deg);
+	transition: 0.88s;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
